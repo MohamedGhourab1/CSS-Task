@@ -1,0 +1,154 @@
+/*Reset start*/
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif
+  }
+  
+body {
+    overflow: auto;
+}
+/*Reset end*/
+
+/*Main section start*/
+.main {
+    background: #f8f7fd;
+    width: 100%;
+    height: 400px;
+    margin: 80px 0;
+}
+
+  /*Left box h and p start*/
+.main-left-box {
+    float: left;
+    width: 21%;
+    text-align: left;
+    padding: 140px 20px;
+    margin-right: 20px;
+
+}
+
+.main h1 {
+    color: red;
+    font-size: 25px;
+}
+
+.main p {
+    color: #b9b9c3;
+    font: 10px;
+    line-height: 20px;
+}
+
+  /*Left box h and p end*/
+
+  /*Right box with images start*/
+
+.main-right-box{
+    float: right;
+    width: 30%;
+    height: 400px;
+    background: url("https://miro.medium.com/max/8000/1*M8GUcgylJT-2Rm3wKUdqmg.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;  
+    margin-right: 250px;
+  }
+
+.small-images-container {
+    position: absolute;
+    bottom: 3px;
+    right: 27px;
+  }
+
+  
+.main-right-box img {
+    display: inline-block;
+    width: 106px;
+    height: 85px;
+    border-radius: 3px;
+    margin: 0px 3px;
+}
+/*Main section end*/
+/*------------------------------------------------------------------------*/
+/*Update section start*/
+
+    /*prop of the section*/
+    
+.update {
+padding: 10px;
+text-align: center;
+}
+
+.update h1{
+
+    margin-bottom:45px ;
+    font-size: 38px;    
+}
+
+    /* conainers of p, img and footer */
+.update-cont {
+    display: inline-block;
+    width: 20%;
+    margin: 5px;
+    background: #f8f7fd;
+    padding: 10px;
+}
+
+    /* update container header and img start */
+.update-cont header p {
+    font-weight: bold;
+    text-align: left;
+    line-height: 25px;
+    padding: 10px;
+}
+    
+.update-cont img {
+    display: block;
+    width: 100%;
+    height: 215px;
+
+}
+
+    /* update container header and img end */
+
+
+    /* update container footer start */
+.update-cont footer {
+    width: 100%;
+    height: 27px;
+    margin-top: 10px;
+    color: #b1b1b1;
+}
+.update-cont footer .footer-left,.update-cont footer img, .update-cont footer p,
+.update-cont footer .footer-right{
+    display: inline-block;
+}
+
+    /* container img */
+.update-cont footer img {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 3px;
+}
+    /* footer left container */
+.footer-left {
+    float: left;
+    padding-right: 80px;
+    position: relative;    
+}
+
+.footer-left p{
+    position: absolute;
+    top: 3px;
+}
+
+    /* footer right container */
+.footer-right {
+    float: right;
+    color: black;
+}
+
+     /* update container footer start */
+
+/*Update section end*/
